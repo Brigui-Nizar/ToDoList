@@ -1,0 +1,111 @@
+HTML CSS JS Result Skip Results Iframe html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #323031;
+    font-family: 'Poppins', sans-serif;
+    color: #EEFBFC;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    color: #EEFBFC;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: .8rem 0;
+    margin-bottom: .4rem;
+}
+
+.subtitle {
+    font-style: italic;
+    margin: .4rem 0;
+}
+
+.list {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #3E3C3D;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item {
+    display: flex;
+    padding: .6rem;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #2A2829;
+}
+
+.item.end {
+    transform: scale(.8);
+    opacity: .5;
+    text-decoration: Line-through;
+
+}
+
+.item p {
+    flex-grow: 2;
+    flex-basis: 70%;
+}
+
+.btn {
+    border: 0;
+    background-color: #1F1E1F;
+    border-radius: 5px;
+    padding: .6rem 1.3rem;
+    cursor: pointer;
+}
+
+.btn.delete {
+    background-color: #791915;
+}
+
+.input-group {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.input-group input {
+    border: 0px;
+    background-color: #1F1E1F;
+    padding: .6rem;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-group input:hover {
+    border: 0px;
+    outline: none;
+}
+
+.input-group .btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #3E3C3D;
+}
